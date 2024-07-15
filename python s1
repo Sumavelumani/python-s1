@@ -1,0 +1,8 @@
+def priya(): 
+	try: 
+		int('N/A') 
+	except ValueError: 
+		print("Didn't work") 
+		raise
+		
+priya() 
